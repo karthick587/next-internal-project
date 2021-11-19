@@ -11,14 +11,10 @@ export default function Userdetails(){
     }, []); 
     return(
         <div className="container">
-       
+          
              {data.map((item)=>
                  <div className="row">
-                     <div className="col"> {item.id}</div>
-                     <div className="col"> {item.first_name}</div>
-                     <div className="col"> {item.last_name}</div>
-                     <div className="col"> {item.email}</div>
-                     <div className="col" >{item.id}<Image className="rounded-circle"src= {item.avatar} alt="pic1" /></div>
+                    
                      
                 </div>
            )}  

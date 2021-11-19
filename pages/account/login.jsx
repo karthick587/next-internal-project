@@ -42,15 +42,15 @@ function Login() {
       
             
        
-        <div class="form">
-  <div class="form-toggle"></div>
-  <div class="form-panel one">
-    <div class="form-header">
+        <div className="form">
+  <div className="form-toggle"></div>
+  <div className="form-panel one">
+    <div className="form-header">
       <h1>user Login</h1>
     </div>
-    <div class="form-content">
+    <div className="form-content">
       <form onSubmit={handleSubmit(onSubmit)}> 
-        <div class="form-group">
+        <div className="form-group">
           <label for="username">Username</label>
           <input name="username" type="text" {...register('username')} className={`form-control ${errors.username ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.username?.message}</div>
@@ -60,12 +60,12 @@ function Login() {
           <input name="password" type="password" {...register('password')} className={`form-control ${errors.password ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.password?.message}</div>
         </div>
-        <div class="form-group">
-          <label class="form-remember">
+        <div className="form-group">
+          <label className="form-remember">
             <input type="checkbox"/>Remember Me
           </label>
         </div>
-        <div class="form-group">
+        <div className="form-group">
         <button disabled={formState.isSubmitting} className="btn btn-primary">
                             {formState.isSubmitting && <span className="spinner-border spinner-border-sm mr-1"></span>}
                             Login

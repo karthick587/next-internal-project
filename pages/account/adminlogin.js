@@ -8,9 +8,9 @@ import { Layout } from 'components/account';
 import { userService, alertService } from 'services';
 import { Header } from 'components/header';
 
-export default Login;
+export default Adminlogin;
 
-function Login() {
+function Adminlogin() {
     const router = useRouter();
 
     // form validation rules 
@@ -28,15 +28,15 @@ function Login() {
         return userService.login(username, password)
             .then(() => {
                 // get return url from query parameters or default to '/'
-                const returnUrl = router.query.returnUrl || '/userdash';
+                const returnUrl = router.query.returnUrl || '/admindash';
                 router.push(returnUrl);
             })
             .catch(alertService.error);
     }
 
     return (
-
       <Layout>
+
         <div className="login-body">
         <Header />
       
@@ -46,24 +46,24 @@ function Login() {
   <div className="form-toggle"></div>
   <div className="form-panel one">
     <div className="form-header">
-      <h1>user Login</h1>
+      <h1>Admin Login</h1>
     </div>
     <div className="form-content">
       <form onSubmit={handleSubmit(onSubmit)}> 
         <div className="form-group">
-          <label for="username">Username</label>
-          <input name="username" type="text" {...register('username')} className={`form-control ${errors.username ? 'is-invalid' : ''}`} />
-                            <div className="invalid-feedback">{errors.username?.message}</div>
+          <label htmlFor="username">Adminname</label>
+          <input className="username" type="text" {...register('username')} className={`form-control ${errors.username ? 'is-invalid' : ''}`} />
+          <div className="invalid-feedback">{errors.username?.message}</div>
         </div>
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input name="password" type="password" {...register('password')} className={`form-control ${errors.password ? 'is-invalid' : ''}`} />
+        <div className="form-group">
+          <label htmlFor="password">Password</label>
+          <input className="password" type="password" {...register('password')} className={`form-control ${errors.password ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.password?.message}</div>
         </div>
         <div className="form-group">
           <label className="form-remember">
             <input type="checkbox"/>Remember Me
-          </label>
+          </label><a className="form-recovery"><Link href="/account/register" className="btn btn-link">Register</Link></a>
         </div>
         <div className="form-group">
         <button disabled={formState.isSubmitting} className="btn btn-primary">
@@ -81,6 +81,6 @@ function Login() {
  
 
         </div>
-     </Layout>
+        </Layout>
     );
 }

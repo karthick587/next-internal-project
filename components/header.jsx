@@ -30,7 +30,7 @@ function Header() {
     <button className="avatarbtn" data-bs-toggle="dropdown" aria-expanded="false">
     <Image src={profilePic} alt="Avatar2" class="avatar" />
   </button>
-    <ul id="avatardrop" class="dropdown-menu">
+    <ul id="avatardrop" className="dropdown-menu">
       <li><a className="dropdown-item" href="#"><Image src={profilePic} alt="Avatar2" class="avatar" />   <Link href="/account/adminlogin">adminlogin</Link></a></li>
       <li><a className="dropdown-item" href="#"><Image src={profilePic} alt="Avatar2" class="avatar" />  <Link href="/account/login" >user login</Link></a></li>
     </ul>

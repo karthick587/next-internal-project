@@ -1,0 +1,92 @@
+[
+    {
+        "firstName": "pk",
+        "lastName": "pk",
+        "username": "pk",
+        "hash": "$2a$10$bbCGuVtp8DqrLJWLv/f9PuPVsOpoYmqs0eui/fLcI6sWmE2fTCSje",
+        "id": 1,
+        "dateCreated": "2021-11-12T13:02:59.824Z",
+        "dateUpdated": "2021-11-12T13:02:59.824Z"
+    },
+    {
+        "firstName": "chand",
+        "lastName": "chand",
+        "username": "chand",
+        "hash": "$2a$10$RlI2Jf7w4qNCbQgJQ9qd6eUcwj5u3eo4i.pnuHPOX4gwSrN89q.7O",
+        "id": 2,
+        "dateCreated": "2021-11-13T09:29:25.979Z",
+        "dateUpdated": "2021-11-13T09:29:25.979Z"
+    },
+    {
+        "firstName": "sir",
+        "lastName": "sir",
+        "username": "sir",
+        "hash": "$2a$10$xbjMXcsZJ6xz709tlb.QuOPTGQKn0V2g0tYN6ytQ6A4aMnmL5Z7IW",
+        "id": 3,
+        "dateCreated": "2021-11-13T11:22:47.689Z",
+        "dateUpdated": "2021-11-13T11:22:47.689Z"
+    },
+    {
+        "firstName": "mk",
+        "lastName": "mk",
+        "username": "mk",
+        "hash": "$2a$10$BdZNGfwIu9gqRL6fPPw19OvFKApZDieaQD8rm/araesS.MRhH1BFu",
+        "id": 4,
+        "dateCreated": "2021-11-16T10:33:37.493Z",
+        "dateUpdated": "2021-11-16T10:33:37.493Z"
+    },
+    {
+        "firstName": "sha",
+        "lastName": "sha",
+        "username": "sha",
+        "hash": "$2a$10$PJWn3dUzwT/s3esTBpxeheIUlBBBhzHGLXr0.mw6zrq8wc5PO/bGC",
+        "id": 5,
+        "dateCreated": "2021-11-16T12:49:35.749Z",
+        "dateUpdated": "2021-11-16T12:49:35.749Z"
+    },
+    {
+        "firstName": "jay",
+        "lastName": "jay",
+        "username": "jay",
+        "hash": "$2a$10$sxab5W9p2EIlpf2mEHgCPOU0Ryjh1XKCFmglPneeYMVqN2OyHXaRq",
+        "id": 7,
+        "dateCreated": "2021-11-17T04:29:48.713Z",
+        "dateUpdated": "2021-11-17T04:29:48.713Z"
+    },
+    {
+        "firstName": "wa",
+        "lastName": "wa",
+        "username": "wa",
+        "hash": "$2a$10$gq0YeBXkta.2esGc3ag6vOsfBB4X1MssOftC5BSnrgu7jZPQ8oe8i",
+        "id": 8,
+        "dateCreated": "2021-11-17T04:31:23.544Z",
+        "dateUpdated": "2021-11-17T04:31:23.544Z"
+    },
+    {
+        "firstName": "kavi",
+        "lastName": "kavi",
+        "username": "kavi",
+        "hash": "$2a$10$oCsf1haUiPD49D83uQMSOOiKzwoJEjmTsYpB41JSgNd8foEsXk8fq",
+        "id": 9,
+        "dateCreated": "2021-11-17T10:36:54.783Z",
+        "dateUpdated": "2021-11-17T10:36:54.783Z"
+    },
+    {
+        "firstName": "bb",
+        "lastName": "bb",
+        "username": "bb",
+        "hash": "$2a$10$CipoEC5YLcd5O04Kddysae1ZnR/lCnd.Q9DxtrDpLvrknX7HqThgC",
+        "id": 10,
+        "dateCreated": "2021-11-17T10:48:57.288Z",
+        "dateUpdated": "2021-11-17T10:48:57.288Z"
+    },
+    {
+        "firstName": "sk",
+        "lastName": "sk",
+        "username": "sk",
+        "hash": "$2a$10$.vKz9uFeoREYnaGEDMTesOEyuwr/.Shsm4SXDAfUOZMwWtN6Y308G",
+        "id": 11,
+        "dateCreated": "2021-11-17T11:34:47.961Z",
+        "dateUpdated": "2021-11-17T11:34:47.961Z"
+    }
+]

@@ -52,12 +52,12 @@ function Adminlogin() {
       <form onSubmit={handleSubmit(onSubmit)}> 
         <div className="form-group">
           <label htmlFor="username">Adminname</label>
-          <input className="username" type="text" {...register('username')} className={`form-control ${errors.username ? 'is-invalid' : ''}`} />
+          <input className="username" type="text" {...register('username')}  />
           <div className="invalid-feedback">{errors.username?.message}</div>
         </div>
         <div className="form-group">
           <label htmlFor="password">Password</label>
-          <input className="password" type="password" {...register('password')} className={`form-control ${errors.password ? 'is-invalid' : ''}`} />
+          <input className="password" type="password" {...register('password')}  />
                             <div className="invalid-feedback">{errors.password?.message}</div>
         </div>
         <div className="form-group">

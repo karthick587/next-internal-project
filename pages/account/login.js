@@ -49,7 +49,7 @@ function Login() {
       <h1>user Login</h1>
     </div>
     <div className="form-content">
-      <form onSubmit={handleSubmit(onSubmit)}> 
+      <form netlify onSubmit={handleSubmit(onSubmit)}> 
         <div className="form-group">
           <label htmlFor="username">Username</label>
           <input name="username" type="text" {...register('username')} className={`form-control ${errors.username ? 'is-invalid' : ''}`} />

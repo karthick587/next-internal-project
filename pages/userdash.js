@@ -28,7 +28,11 @@ function Userdash() {
             <div >
                 <Nav out={logout2} />
                 <Alert />
-               <h1>user dashboard</h1>
+                <div className="container">
+                <h1>Hi {userService.userValue?.firstName}!</h1>
+                <p>You&apos;re logged in with Next.js & JWT!!</p>
+               
+            </div>
                  
             </div>
            

@@ -394,5 +394,15 @@ button.btn.btn-secondary.show:focus {
    .form{
      width: 350px;
    }
+   .login-body {
+     height: 100vh;
+   }
+   .btn-group, .btn-group-vertical {
+    /* position: relative; */
+   
+    float: right !important;
+    /* display: inline-flex; */
+    /* vertical-align: middle; */
+}
   }
   

@@ -7,6 +7,7 @@ import { Link } from 'components';
 import { Layout } from 'components/account';
 import { userService, alertService } from 'services';
 import { Header } from 'components/header';
+import { tuple } from 'antd/lib/_util/type';
 
 export default Register;
 
@@ -15,12 +16,14 @@ function Register() {
 
     // form validation rules 
     const validationSchema = Yup.object().shape({
-        firstName: Yup.string()
+        adminfirstName: Yup.string()
             .required('First Name is required'),
-        lastName: Yup.string()
+            adminlastName: Yup.string()
             .required('Last Name is required'),
-        username: Yup.string()
+            adminname: Yup.string()
             .required('Username is required'),
+            adminemail: Yup.string()
+            .required('email is required'),
         password: Yup.string()
             .required('Password is required')
             .min(6, 'Password must be at least 6 characters')
@@ -54,18 +57,23 @@ function Register() {
       <form onSubmit={handleSubmit(onSubmit)}> 
         <div className="form-group">
         <label>First Name</label>
-                            <input name="firstName" type="text" {...register('firstName')} className={`form-control ${errors.firstName ? 'is-invalid' : ''}`} />
-                            <div className="invalid-feedback">{errors.firstName?.message}</div>
+                            <input name="adminfirstName" type="text" {...register('adminfirstName')} className={`form-control ${errors.adminfirstName ? 'is-invalid' : ''}`} />
+                            <div className="invalid-feedback">{errors.adminfirstName?.message}</div>
         </div>
         <div className="form-group">
            <label>Last Name</label>
-                            <input name="lastName" type="text" {...register('lastName')} className={`form-control ${errors.lastName ? 'is-invalid' : ''}`} />
-                            <div className="invalid-feedback">{errors.lastName?.message}</div>
+                            <input name="adminlastName" type="text" {...register('adminlastName')} className={`form-control ${errors.adminlastName ? 'is-invalid' : ''}`} />
+                            <div className="invalid-feedback">{errors.adminlastName?.message}</div>
         </div>
         <div className="form-group">
-        <label>Username</label>
-                            <input name="username" type="text" {...register('username')} className={`form-control ${errors.username ? 'is-invalid' : ''}`} />
-                            <div className="invalid-feedback">{errors.username?.message}</div>
+        <label>adminname</label>
+                            <input name="adminname" type="text" {...register('adminname')} className={`form-control ${errors.adminname ? 'is-invalid' : ''}`} />
+                            <div className="invalid-feedback">{errors.adminname?.message}</div>
+        </div>
+        <div className="form-group">
+        <label>Email</label>
+                            <input name="adminemail" type="email" {...register('adminemail')} className={`form-control ${errors.adminemail ? 'is-invalid' : ''}`} />
+                            <div className="invalid-feedback">{errors.adminemail?.message}</div>
         </div>
         <div className="form-group">
         <label>Password</label>

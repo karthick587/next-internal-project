@@ -38,6 +38,7 @@ function update(req, res) {
     return res.status(200).json({});
 }
 
+
 function _delete(req, res) {
     usersRepo.delete(req.query.id);
     return res.status(200).json({});

@@ -12,6 +12,7 @@ export const userService = {
     user: userSubject.asObservable(),
     get userValue () { return userSubject.value },
     login,
+    login2,
     logout,
     logout2,
     register,
@@ -31,7 +32,16 @@ function login(username, password) {
             return user;
         });
 }
+function login2(adminname, password) {
+    return fetchWrapper.post(`${baseUrl}/authenticate`, { adminname, password })
+        .then(user => {
+            // publish user to subscribers and store in local storage to stay logged in between page refreshes
+            userSubject.next(user);
+            localStorage.setItem('user', JSON.stringify(user));
 
+            return user;
+        });
+}
 
 function logout() {
     // remove user from local storage, publish null to user subscribers and redirect to login page

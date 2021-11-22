@@ -5,11 +5,16 @@ import React from "react";
 import { userService } from 'services';
 import { NavLink, Nav, Alert } from 'components';
 import Userdetails from 'components/userdetails';
+import Uploady from "@rpldy/uploady";
+import UploadButton from "@rpldy/upload-button";
+
+
 
 
 
 export default Userdash;
-
+const CLOUD_NAME = "dwvnm18dm";
+const UPLOAD_PRESET = "<y4cgpq4l>";
 function Userdash() {
 
     
@@ -37,6 +42,17 @@ function Userdash() {
             </div>
                  <Userdetails />
             </div>
+            <Uploady
+    destination={{ 
+        url: `https://api.cloudinary.com/v1_1/{dwvnm18dm}/upload`,
+        params: {
+            upload_preset: UPLOAD_PRESET,
+        }
+    }}>
+    <UploadButton/>
+</Uploady>
+               
+
     </div>
        
             {/* credits */}

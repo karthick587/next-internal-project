@@ -39,6 +39,8 @@ function info(message, options) {
     alert({ ...options, type: AlertType.Info, message });
 }
 
+
+
 function warn(message, options) {
     alert({ ...options, type: AlertType.Warning, message });
 }

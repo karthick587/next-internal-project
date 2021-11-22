@@ -1,7 +1,11 @@
 import { useState, useEffect } from 'react';
-
+import TemporaryDrawer from 'components/sidemenu';
 import { NavLink } from '.';
 import { userService } from 'services';
+
+
+
+
 
 export { Nav };
 
@@ -27,6 +31,7 @@ function Nav(props) {
         <nav className="navbar navbar-expand navbar-dark color">
             <div className="container">
             <div className="navbar-nav">
+            <TemporaryDrawer />
                 <NavLink href="#" exact className="nav-item nav-link">Home</NavLink>
                {props.menulinks}
                 <a onClick={props.out} className="nav-item nav-link">Logout</a>

@@ -15,7 +15,7 @@ function Adminlogin() {
 
     // form validation rules 
     const validationSchema = Yup.object().shape({
-        username: Yup.string().required('Username is required'),
+        adminname: Yup.string().required('Username is required'),
         password: Yup.string().required('Password is required')
     });
     const formOptions = { resolver: yupResolver(validationSchema) };
@@ -24,8 +24,8 @@ function Adminlogin() {
     const { register, handleSubmit, formState } = useForm(formOptions);
     const { errors } = formState;
 
-    function onSubmit({ username, password }) {
-        return userService.login(username, password)
+    function onSubmit({ adminname, password }) {
+        return userService.login2(adminname, password)
             .then(() => {
                 // get return url from query parameters or default to '/'
                 const returnUrl = router.query.returnUrl = '/admindash';
@@ -51,8 +51,8 @@ function Adminlogin() {
     <div className="form-content">
       <form onSubmit={handleSubmit(onSubmit)}> 
         <div className="form-group">
-          <label htmlFor="username">Adminname</label>
-          <input className="username" type="text" {...register('username')}  />
+          <label htmlFor="adminname">Adminname</label>
+          <input className="adminname" type="text" {...register('adminname')}  />
           <div className="invalid-feedback">{errors.username?.message}</div>
         </div>
         <div className="form-group">

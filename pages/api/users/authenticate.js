@@ -11,9 +11,9 @@ export default apiHandler({
 });
 
 function authenticate(req, res) {
-    const { username, password } = req.body;
+    const {username, password } = req.body;
     const user = usersRepo.find(u => u.username === username);
-
+ 
     // validate
     if (!(user && bcrypt.compareSync(password, user.hash))) {
         throw 'Username or password is incorrect';
@@ -28,6 +28,12 @@ function authenticate(req, res) {
         username: user.username,
         firstName: user.firstName,
         lastName: user.lastName,
+        email:user.email,
+        adminfirstName:user.adminfirstName,
+        adminlastName:user.adminlastName,
+        adminname:user.adminname,
+        adminemail:user.adminemail,
+
         token
     });
 }

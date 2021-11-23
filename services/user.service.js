@@ -60,6 +60,7 @@ function register(user) {
     return fetchWrapper.post(`${baseUrl}/register`, user);
 }
 
+
 function getAll() {
     return fetchWrapper.get(baseUrl);
 }

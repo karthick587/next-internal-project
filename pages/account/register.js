@@ -7,7 +7,7 @@ import { Link } from 'components';
 import { Layout } from 'components/account';
 import { userService, alertService } from 'services';
 import { Header } from 'components/header';
-import { tuple } from 'antd/lib/_util/type';
+
 
 export default Register;
 
@@ -16,15 +16,15 @@ function Register() {
 
     // form validation rules 
     const validationSchema = Yup.object().shape({
-        adminfirstName: Yup.string()
+            adminfirstName: Yup.string()
             .required('First Name is required'),
             adminlastName: Yup.string()
             .required('Last Name is required'),
             adminname: Yup.string()
-            .required('Username is required'),
+            .required('adminname is required'),
             adminemail: Yup.string()
-            .required('email is required'),
-        password: Yup.string()
+            .required('adminemail is required'),
+            password: Yup.string()
             .required('Password is required')
             .min(6, 'Password must be at least 6 characters')
     });
@@ -80,12 +80,13 @@ function Register() {
                             <input name="password" type="password" {...register('password')} className={`form-control ${errors.password ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.password?.message}</div>
         </div>
+        
         <div className="form-group">
         <button disabled={formState.isSubmitting} className="btn btn-primary">
                             {formState.isSubmitting && <span className="spinner-border spinner-border-sm mr-1"></span>}
                             Register
                         </button>
-                        <Link  href="/account/login" >Cancel</Link>
+                        <Link  href="/account/adminlogin" >Cancel</Link>
         </div>
       </form>
     </div>

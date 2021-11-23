@@ -53,7 +53,7 @@ function Adminlogin() {
         <div className="form-group">
           <label htmlFor="adminname">Adminname</label>
           <input className="adminname" type="text" {...register('adminname')}  />
-          <div className="invalid-feedback">{errors.username?.message}</div>
+          <div className="invalid-feedback">{errors.adminname?.message}</div>
         </div>
         <div className="form-group">
           <label htmlFor="password">Password</label>

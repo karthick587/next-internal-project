@@ -11,8 +11,6 @@ export default function Userdetails(){
     }, []); 
     return(
         <div className="container">
-          <h1>Fetch Data from API</h1>
-            
                  <div className="row ">
                      <div className="col"> {data.id}</div>
                      <div className="col"> {data.first_name}</div>

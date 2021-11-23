@@ -26,14 +26,17 @@ function Userdash() {
         <>
          <div>
             <Head>
-                <title>Next.js User dashbord</title>
+                <title>dashbord</title>
                 
                 {/* eslint-disable-next-line @next/next/no-css-tags */}
                 <link href="//netdna.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
             </Head>
           
             <div >
-                <Nav out={logout2} />
+                <Nav out={logout2}
+                profileName={<h5>{userService.userValue?.username}</h5>} 
+                profileEmail={<h5>{userService.userValue?.email}</h5>}
+                />
                 <Alert />
                 <div className="container">
                 <h1>Hi {userService.userValue?.lastName}!</h1>

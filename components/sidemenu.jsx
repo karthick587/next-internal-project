@@ -10,7 +10,8 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import React,{useEffect,useState} from "react";
-export default function TemporaryDrawer() {
+import { PinDropSharp } from '@mui/icons-material';
+export default function TemporaryDrawer(props) {
   const [state, setState] = React.useState({
     top: false,
     left: false,
@@ -74,12 +75,7 @@ export default function TemporaryDrawer() {
             onClose={toggleDrawer(anchor, false)}
           >
        <div className="sile-profile">
-         <ul>
-           <li><div className="col" key={data.id}><img className="rounded-circle"src= {data.avatar} alt="pic1" /></div> </li>
-           <li> bdddhfr</li>
-           <li>fggh </li>
-           <li> dfhtrhrh</li>
-         </ul>
+        {props.sidemenuContent}
 
        </div>
           </Drawer>

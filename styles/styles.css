@@ -127,7 +127,7 @@ button.btn.btn-secondary.show:focus {
     opacity: 1;
   }
   .form-group {
-    display: flex;
+    
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 0 20px;
@@ -429,5 +429,19 @@ button.btn.btn-secondary.show:focus {
     /* vertical-align: middle; */
 }
   }
-
+  .sile-profile ul li {
+    list-style: none;
+    padding: 1px 20px;
+}
+.sile-profile ul {
+  padding: 31px 33px 0px 14px;
+}
+.profileicon{
+ width: 15px;
   
+  margin: 2px 11px;
+  color: #2285ca;
+}
+.sile-profile ul li h5{
+  font-size: 16px;
+}

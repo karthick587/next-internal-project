@@ -1,200 +1,43 @@
 [
     {
-        "firstName": "pk",
-        "lastName": "pk",
-        "username": "pk",
-        "hash": "$2a$10$bbCGuVtp8DqrLJWLv/f9PuPVsOpoYmqs0eui/fLcI6sWmE2fTCSje",
-        "id": 1,
-        "dateCreated": "2021-11-12T13:02:59.824Z",
-        "dateUpdated": "2021-11-12T13:02:59.824Z"
-    },
-    {
-        "firstName": "chand",
-        "lastName": "chand",
-        "username": "chand",
-        "hash": "$2a$10$RlI2Jf7w4qNCbQgJQ9qd6eUcwj5u3eo4i.pnuHPOX4gwSrN89q.7O",
-        "id": 2,
-        "dateCreated": "2021-11-13T09:29:25.979Z",
-        "dateUpdated": "2021-11-13T09:29:25.979Z"
-    },
-    {
-        "firstName": "sir",
-        "lastName": "sir",
-        "username": "sir",
-        "hash": "$2a$10$xbjMXcsZJ6xz709tlb.QuOPTGQKn0V2g0tYN6ytQ6A4aMnmL5Z7IW",
-        "id": 3,
-        "dateCreated": "2021-11-13T11:22:47.689Z",
-        "dateUpdated": "2021-11-13T11:22:47.689Z"
-    },
-    {
-        "firstName": "wa",
-        "lastName": "wa",
-        "username": "wa",
-        "hash": "$2a$10$gq0YeBXkta.2esGc3ag6vOsfBB4X1MssOftC5BSnrgu7jZPQ8oe8i",
-        "id": 8,
-        "dateCreated": "2021-11-17T04:31:23.544Z",
-        "dateUpdated": "2021-11-17T04:31:23.544Z"
-    },
-    {
-        "firstName": "kavi",
-        "lastName": "kavi",
-        "username": "kavi",
-        "hash": "$2a$10$oCsf1haUiPD49D83uQMSOOiKzwoJEjmTsYpB41JSgNd8foEsXk8fq",
-        "id": 9,
-        "dateCreated": "2021-11-17T10:36:54.783Z",
-        "dateUpdated": "2021-11-17T10:36:54.783Z"
-    },
-    {
-        "firstName": "bb",
-        "lastName": "bb",
-        "username": "bb",
-        "hash": "$2a$10$CipoEC5YLcd5O04Kddysae1ZnR/lCnd.Q9DxtrDpLvrknX7HqThgC",
-        "id": 10,
-        "dateCreated": "2021-11-17T10:48:57.288Z",
-        "dateUpdated": "2021-11-17T10:48:57.288Z"
-    },
-    {
-        "firstName": "sk",
-        "lastName": "sk",
-        "username": "sk",
-        "hash": "$2a$10$.vKz9uFeoREYnaGEDMTesOEyuwr/.Shsm4SXDAfUOZMwWtN6Y308G",
-        "id": 11,
-        "dateCreated": "2021-11-17T11:34:47.961Z",
-        "dateUpdated": "2021-11-17T11:34:47.961Z"
-    },
-    {
         "firstName": "karthick",
         "lastName": "raja",
-        "username": "karthick",
-        "hash": "$2a$10$O83Oq6UHf4bVsd1tOhRV1.OAuu6mEQgxcDwm2klGXS0lAEw5OF.B2",
-        "id": 12,
-        "dateCreated": "2021-11-19T11:15:45.675Z",
-        "dateUpdated": "2021-11-19T11:15:45.675Z"
+        "username": "karthick raja",
+        "hash": "$2a$10$zkLTxTkWTakfzDrSo082c.9f6RupcS6sq0W3GF6UuxR892xW.4xr2",
+        "id": 25,
+        "dateCreated": "2021-11-22T04:47:30.915Z",
+        "dateUpdated": "2021-11-22T04:47:30.915Z"
     },
     {
         "firstName": "karthick",
-        "lastName": "raja",
-        "username": "karthick8",
-        "email": "karthickdurai587@gmail.com",
-        "hash": "$2a$10$HMERzfEsjc0fIN5OzJpXauPNAKrh8r227YeL/FAky0hldHIwUiMZK",
-        "id": 13,
-        "dateCreated": "2021-11-20T11:00:53.546Z",
-        "dateUpdated": "2021-11-20T11:00:53.546Z"
-    },
-    {
-        "firstName": "karthick",
-        "adminlastName": "admin",
-        "adminusername": "adminkarthick",
-        "adminemail": "karthickdurai583@gmail.com",
-        "lastName": "admin",
-        "username": "adminkarthick",
-        "email": "karthickdurai583@gmail.com",
-        "hash": "$2a$10$xbaD4.aVPo/nQ2jcSQTMuewVTK3VPvUWPAhIPCAbqdH/fLLDDT7H2",
-        "id": 14,
-        "dateCreated": "2021-11-20T11:36:40.693Z",
-        "dateUpdated": "2021-11-20T11:36:40.693Z"
-    },
-    {
-        "firstName": "tamil",
-        "lastName": "priya",
-        "username": "tamilpriya",
-        "email": "admin@gmail.com",
-        "hash": "$2a$10$kRYDfK2McRM9fihk4ehar.sMqHPZEH9CXA.ge/MQN7W7oV81i8UOq",
-        "id": 15,
-        "dateCreated": "2021-11-20T11:56:32.609Z",
-        "dateUpdated": "2021-11-20T11:56:32.609Z"
-    },
-    {
-        "firstName": "p",
         "lastName": "d",
-        "username": "pd",
-        "email": "karthickraja@mindmade.com",
-        "hash": "$2a$10$y03Ebw2h7LD2jIcgfCA37e6nVRWFWEXd6tHx6Nk1488WR5HxU13yy",
-        "id": 16,
-        "dateCreated": "2021-11-20T11:59:24.921Z",
-        "dateUpdated": "2021-11-20T11:59:24.921Z"
-    },
-    {
-        "adminfirstName": "m",
-        "adminlastName": "k",
-        "adminname": "mk",
-        "adminemail": "karthickdurai583@gmail.com",
-        "firstName": "m",
-        "lastName": "k",
-        "username": "mk",
-        "email": "karthickdurai583@gmail.com",
-        "hash": "$2a$10$91nzF1dXJR17leb9TqeHXOKYFpM8mPWdMLUdepZjlCQL0S6tvpx1y",
-        "id": 17,
-        "dateCreated": "2021-11-20T12:07:01.804Z",
-        "dateUpdated": "2021-11-20T12:07:01.804Z"
-    },
-    {
-        "firstName": "sarath",
-        "lastName": "kumar",
-        "username": "skh",
-        "email": "jhj222@gmail.com",
-        "hash": "$2a$10$TOBZ7R8fDP6UhIuVwTwafeedc4o8ZMU.eDLnwVj0gLjMGHRHhbP0C",
-        "id": 18,
-        "dateCreated": "2021-11-20T12:23:40.744Z",
-        "dateUpdated": "2021-11-20T12:23:40.744Z"
-    },
-    {
-        "firstName": "p",
-        "lastName": "wo",
-        "username": "dx",
-        "email": "gowthaman.nkl1@gmail.com",
-        "hash": "$2a$10$KjS6laaQC50J6lblvGK.kOqBv6Hwm5pkFKUx3.kEfAT8XFwKZCVWa",
-        "id": 19,
-        "dateCreated": "2021-11-20T12:27:01.432Z",
-        "dateUpdated": "2021-11-20T12:27:01.432Z"
-    },
-    {
-        "firstName": "dfh",
-        "lastName": "dfh",
-        "username": "dfhg",
-        "email": "karthick@gmail.com",
-        "hash": "$2a$10$rczFZDiSuh6jR8UEajGIX.gljt1VIXY8GnXP0g16J8UclVYrhHzni",
-        "id": 20,
-        "dateCreated": "2021-11-20T12:34:07.177Z",
-        "dateUpdated": "2021-11-20T12:34:07.177Z"
-    },
-    {
-        "firstName": "SDref",
-        "lastName": "dfh",
-        "username": "hdftghj",
-        "email": "karthick@gmail.com",
-        "hash": "$2a$10$k4LFdVYAvcJgpaliaaeYiemZ4vEcid3euI1vsOljXf00O2TIH9ckm",
-        "id": 21,
-        "dateCreated": "2021-11-20T12:36:02.027Z",
-        "dateUpdated": "2021-11-20T12:36:02.027Z"
-    },
-    {
-        "firstName": "shanker",
-        "lastName": "mm",
-        "username": "shanker",
-        "email": "admin@gmail.com",
-        "hash": "$2a$10$vlaBoiLV4gzM2iuaDTLRSuF9nYszMoilFQsxHCkMY/gsLD8zugkb2",
-        "id": 22,
-        "dateCreated": "2021-11-22T04:21:11.983Z",
-        "dateUpdated": "2021-11-22T04:21:11.983Z"
+        "username": "karthick",
+        "email": "karthickdurai587@gmail.com",
+        "hash": "$2a$10$kmshgeDwNXxe3nKqTnLiuOEjZrsHCFxjYKk9SNZSZvvGkiW7o/NYq",
+        "id": 27,
+        "dateCreated": "2021-11-22T05:10:29.515Z",
+        "dateUpdated": "2021-11-22T05:10:29.515Z"
     },
     {
         "adminfirstName": "kumar",
-        "adminlastName": "k",
+        "adminlastName": "kumar",
         "adminname": "kumar",
-        "adminemail": "kumar@gmail.com",
-        "hash": "$2a$10$vKWImYfR4lbwy5u0eDAH6uQHROU2KH40EMKpsXsUhF/fRf5tC.YYi",
-        "id": 23,
-        "dateCreated": "2021-11-22T04:30:38.256Z",
-        "dateUpdated": "2021-11-22T04:30:38.256Z"
+        "adminemail": "muthu@gmail.com",
+        "hash": "$2a$10$BOVO4T7N9BjkKz4M/fA64ebXeLLb.TJopw25y4X5T8Ur/pFn.Pw62",
+        "id": 28,
+        "dateCreated": "2021-11-22T05:21:17.853Z",
+        "dateUpdated": "2021-11-22T05:21:17.853Z"
     },
     {
         "firstName": "maths",
-        "lastName": "maths",
+        "lastName": "sub",
         "username": "maths",
-        "hash": "$2a$10$O3nw0lWV6d/56yqy3gwAAeoixHlCURSaz8vcm.R6A77YtFnxr.Oma",
-        "id": 24,
-        "dateCreated": "2021-11-22T04:32:11.015Z",
-        "dateUpdated": "2021-11-22T04:32:11.015Z"
+        "email": "maths@gmail.com",
+        "hash": "$2a$10$aOgubLyj1NU7qGd1qwCOLOl5ZmmyhRHyXP5eGw3CKE4IZX788mlhG",
+        "id": 29,
+        "dateCreated": "2021-11-22T06:19:17.892Z",
+        "dateUpdated": "2021-11-22T06:19:17.892Z"
+
     }
+    
 ]

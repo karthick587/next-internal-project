@@ -31,7 +31,13 @@ function Nav(props) {
         <nav className="navbar navbar-expand navbar-dark color">
             <div className="container">
             <div className="navbar-nav">
-            <TemporaryDrawer />
+            <TemporaryDrawer sidemenuContent={
+                 <ul>
+                 <li>{props.profileName} </li>
+                 <li> {props.profileEmail}</li>
+                
+               </ul>
+            } />
                 <NavLink href="#" exact className="nav-item nav-link">Home</NavLink>
                {props.menulinks}
                 <a onClick={props.out} className="nav-item nav-link">Logout</a>

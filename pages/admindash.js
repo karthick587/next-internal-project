@@ -26,8 +26,12 @@ function Admindash() {
             </Head>
           
             <div>
-                <Nav out={logout}  menulinks={ <NavLink href="/users" className="nav-item nav-link">users</NavLink>} />
-               
+                <Nav out={logout}  
+                menulinks={ <NavLink href="/users" className="nav-item nav-link">users</NavLink>}
+                profileName={<h5>{userService.userValue?.adminname}</h5>} 
+                profileEmail={<h5>{userService.userValue?.adminemail}</h5>}
+                />
+                
                 <Alert />
                <div className="container">
                  admindash
